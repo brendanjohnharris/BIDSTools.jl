@@ -1,9 +1,9 @@
 # BIDSTools
 
-[![Build Status](https://travis-ci.com/TRIImaging/BIDSTools.jl.svg?branch=master)](https://travis-ci.com/TRIImaging/BIDSTools.jl)
-[![CodeCoverage](https://codecov.io/gh/TRIImaging/BIDSTools.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/TRIImaging/BIDSTools.jl)
-[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://triimaging.github.io/BIDSTools.jl/stable)
-[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://triimaging.github.io/BIDSTools.jl/dev)
+[![Build Status](https://github.com/brendanjohnharris/BIDSTools.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/brendanjohnharris/BIDSTools.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/brendanjohnharris/BIDSTools.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/brendanjohnharris/BIDSTools.jl)
+[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://brendanjohnharris.github.io/BIDSTools.jl/stable)
+[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://brendanjohnharris.github.io/BIDSTools.jl/dev)
 
 Tools for working with Brain Imaging Data Structure (BIDS) from Julia.
 
@@ -11,7 +11,7 @@ For more info on BIDS, read [the documentation](https://bids-specification.readt
 
 ## Features
 
-* Working with BIDS Directory easily 
+* Working with BIDS Directory easily
 * Flexible usage - initialize single object as you wish
 * Query to get the desired files
 * Other utility functions such as `total_sessions`, `parse_fname`, `parse_path`, etc.
